@@ -1,0 +1,38 @@
+.item {
+    margin: 0.4em;
+}
+
+.board {
+    background-color: #12232E;
+    background-color: #553d67;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+/* .field {
+    color: #12232E;
+    background-color: #553d67;
+    border:none;
+    border-radius: 0px;
+    border-bottom: 3px solid #203467;
+    border-right: 3px solid #203467;
+    outline: none;
+} */
+
+.field {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    background-color: #553d67;
+    color: #12232E;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 3px solid #203647;
+    border-right: 3px solid #203647;
+    outline: none;
+}
